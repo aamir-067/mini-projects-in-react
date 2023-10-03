@@ -1,6 +1,12 @@
-## About
+# About
 
-its a simple password generator created with react.js and tailwindCSS. you can change do modification and send PRs.
+## React.js Projects
+
+1. its a simple password generator created with react.js and tailwindCSS.
+
+2. This is a currency convertor which is not hard coated value but it will be fetched from the api.s
+
+### ` PRs are Welcome.`
 
 ## Available Scripts
 

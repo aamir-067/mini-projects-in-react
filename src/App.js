@@ -1,11 +1,12 @@
 import './App.css';
-import MyCard from './components/MyCard';
+import { PasswordGenerator, CurrencyCoverter } from './components/AllComponents';
 
 
 function App() {
   return (
-    <div className={`bg-slate-900`}>
-      <MyCard />
+    <div className={`bg-slate-900 h-screen`}>
+      <PasswordGenerator />
+      <CurrencyCoverter />
     </div>
   );
 }

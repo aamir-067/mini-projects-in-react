@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react'
 
-const MyCard = () => {
+const PasswordGenerator = () => {
     const [pass, setPass] = useState('');
     const [len, setLen] = useState(6);
     const [isNums, setIsNums] = useState(false);
@@ -28,7 +28,7 @@ const MyCard = () => {
 
 
     return (
-        <div className="w-screen h-screen flex justify-center items-start">
+        <div className="w-screen flex justify-center items-start">
             <div className='w-8/12 p-4 my-20 border-2 border-black bg-slate-700 rounded-lg'>
                 <h2 className='text-center text-4xl font-bold text-blue-600 capitalize '>password generator</h2>
                 <div className='w-full flex justify-center items-center my-6 rounded-full'>
@@ -55,4 +55,4 @@ const MyCard = () => {
     )
 }
 
-export default MyCard
+export default PasswordGenerator
